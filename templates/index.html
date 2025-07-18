@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <title>Bootstrap</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/style.css">
 </head>
 <body>
-<div class="wrap d-flex p-4">
+<div class="wrap d-flex p-4 vh-100">
     <div class="sidebar">
-        <h1>B МЕНЮ</h1>
+        <div class="logo_box d-flex align-items-center">
+            <img class="logo" src="../static/img/logo.svg" alt="">
+            <h1 class="fs-5 mb-0">МЕНЮ</h1>
+        </div>
         <nav>
             <ul>
                 <li>Главная</li>
@@ -16,13 +20,19 @@
                 <li>Заказы</li>
                 <li>Контакты</li>
             </ul>
-            <p>
-                Accaunt
-            </p>
-        </nav>
 
+        </nav>
+    <div class="user-block mt-auto">
+                <div class="d-flex align-items-center">
+                    <span>Пользователь</span>
+                </div>
+                <div class="submenu">
+                    <a href="#">Профиль</a>
+                    <a href="#">Выход</a>
+                </div>
+            </div>
     </div>
-    <div class="main">
+    <div class="main d-flex align-items-center">
         <h2>Главная</h2>
         <p>Вы находитесь на сайте, предназначенном для продажи товаров
         </p>
