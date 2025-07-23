@@ -11,30 +11,13 @@ nav ul {
 .sidebar{
     display: flex;
     flex-direction: column;
+    min-width: 250px;
     background-color: #212528;
     color: #fff;
     padding: 1rem;
 }
-.user-block{
-    position: relative;
-    cursor: pointer;
-}
-.submenu{
-    position: absolute;
-    left: 0;
-    bottom: 40px;
-    width: 100%;
-    display: none;
-    flex-direction: column;
-    padding: 15px;
-    background-color: #495057;
-
-}
-.submenu a {
+.sidebar a {
     color: #fff;
-}
-.user-block:hover .submenu {
-    display: flex;
 }
 .logo {
     width: 30px;
@@ -46,11 +29,4 @@ nav ul {
     flex-direction: column;
     flex-grow: 1;
     padding: 0 30px;
-}
-.row {
-    width: 100%;
-
-}
-.card {
-    margin: 0 30px;
 }
